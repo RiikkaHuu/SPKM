@@ -1,6 +1,8 @@
 
 @ Riikka Huusari, 2021
 
+https://arxiv.org/abs/2108.12199
+
 This directory contains implementation of the proposed Sparse Pre-image Kernel Machine (SPKM):
 * spkm.py contains the algorithm
 * kernels_and_gradients.py contains kernel implementations compatible with spkm code
