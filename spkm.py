@@ -431,7 +431,7 @@ class SPKM(baseSPKM):
                     c.append(-ii)
                 c = np.array(c)[:n_u]
 
-            initial_c = np.copy(c)
+        initial_c = np.copy(c)
 
         [n, d1] = X.shape
 

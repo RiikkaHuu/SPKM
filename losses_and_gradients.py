@@ -105,7 +105,7 @@ class CosLoss(Loss):
             ku = self.kernel.kernel(self.X, u)
 
         if len(c) == 1:
-            kuc = ku * c
+            kuc = np.squeeze(ku * c)
         else:
             kuc = np.dot(ku, c)
 
